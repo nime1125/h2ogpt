@@ -1,6 +1,6 @@
 datasets==2.12.0
 sentencepiece==0.1.99
-gradio==3.34.0
+gradio==4.9.0
 huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
@@ -46,3 +46,4 @@ einops==0.6.1
 instructorembedding==1.0.1
 
 python-dotenv==1.0.0
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
