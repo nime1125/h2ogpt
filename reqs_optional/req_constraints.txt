@@ -1,6 +1,6 @@
 datasets==2.12.0
 sentencepiece==0.1.99
-gradio==3.34.0
+gradio==4.19.2
 huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
@@ -46,3 +46,9 @@ einops==0.6.1
 instructorembedding==1.0.1
 
 python-dotenv==1.0.0
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
