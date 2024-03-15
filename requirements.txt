@@ -20,7 +20,7 @@ loralib==0.1.1
 bitsandbytes==0.39.0
 accelerate==0.20.3
 git+https://github.com/huggingface/peft.git@06fd06a4d2e8ed8c3a253c67d9c3cb23e0f497ad
-transformers==4.30.2
+transformers==4.37.0
 tokenizers==0.13.3
 APScheduler==3.10.1
 
@@ -63,3 +63,8 @@ text-generation==0.6.0
 tiktoken==0.4.0
 # optional: for OpenAI endpoint or embeddings (requires key)
 openai==0.27.8
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
