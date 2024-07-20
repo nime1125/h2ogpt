@@ -6,7 +6,7 @@ huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
 docutils==0.20.1
-torch==2.0.1; sys_platform != "darwin" and platform_machine != "arm64"
+torch==2.2.0; sys_platform != "darwin" and platform_machine != "arm64"
 evaluate==0.4.0
 rouge_score==0.1.2
 sacrebleu==2.3.1
@@ -20,7 +20,7 @@ loralib==0.1.1
 bitsandbytes==0.39.0
 accelerate==0.20.3
 git+https://github.com/huggingface/peft.git@06fd06a4d2e8ed8c3a253c67d9c3cb23e0f497ad
-transformers==4.30.2
+transformers==4.38.0
 tokenizers==0.13.3
 APScheduler==3.10.1
 
@@ -63,3 +63,10 @@ text-generation==0.6.0
 tiktoken==0.4.0
 # optional: for OpenAI endpoint or embeddings (requires key)
 openai==0.27.8
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
