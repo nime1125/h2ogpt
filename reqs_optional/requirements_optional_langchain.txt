@@ -22,7 +22,7 @@ unstructured[local-inference]==0.7.4
 #pytesseract==0.3.10
 pillow
 
-pdfminer.six==20221105
+pdfminer.six==20251107
 urllib3
 requests_file
 
@@ -40,3 +40,4 @@ pip-licenses==4.3.0
 
 # weaviate vector db
 weaviate-client==3.20.0
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
