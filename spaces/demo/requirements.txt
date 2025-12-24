@@ -1,3 +1,4 @@
 transformers==4.28.1
-torch==2.0.0
+torch==2.2.0
 accelerate==0.18.0
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
