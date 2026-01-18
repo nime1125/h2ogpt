@@ -1,6 +1,6 @@
 # optional for chat with PDF
 langchain==0.0.202
-pypdf==3.9.1
+pypdf==6.6.0
 # avoid textract, requires old six
 #textract==1.6.5
 
@@ -40,3 +40,4 @@ pip-licenses==4.3.0
 
 # weaviate vector db
 weaviate-client==3.20.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
