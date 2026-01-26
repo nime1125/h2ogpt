@@ -1,12 +1,12 @@
 # for generate (gradio server) and finetune
 datasets==2.13.0
-sentencepiece==0.1.99
+sentencepiece==0.2.1
 gradio==3.35.2
 huggingface_hub==0.15.1
 appdirs==1.4.4
 fire==0.5.0
 docutils==0.20.1
-torch==2.0.1; sys_platform != "darwin" and platform_machine != "arm64"
+torch==2.10.0; sys_platform != "darwin" and platform_machine != "arm64"
 evaluate==0.4.0
 rouge_score==0.1.2
 sacrebleu==2.3.1
@@ -63,3 +63,4 @@ text-generation==0.6.0
 tiktoken==0.4.0
 # optional: for OpenAI endpoint or embeddings (requires key)
 openai==0.27.8
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
